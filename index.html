@@ -6,52 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Odin Project Landing Page</title>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Roboto">
-</head>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+  </head>
   <body>
     <section class="one">
       <nav>
-        <header>
-          <img src="" alt="header logo" />
-          <ul>
-            <li><a href="linkhere">header link one</a></li>
-            <li><a href="linkhere">header link two</a></li>
-            <li><a href="linkhere">header link three</a></li>
-          </ul>
+        <header class="container">
+          <h2 class="logo">Header Logo</h2>
+          <div>
+            <a href="linkhere">header link one</a>
+            <a href="linkhere">header link two</a>
+            <a href="linkhere">header link three</a>
+          </div>
         </header>
       </nav>
-      <div>
-        <h1>This website is super awesome like a possum</h1>
-        <p>
-          This website has some subtext that goes here under the main title.
-          It's a smaller font and the color is lower contrast
-        </p>
-        <button>Sign up</button>
-        <img src="" alt="this is a placeholder for an image" />
-        <!-- image goes on right half of display, maybe need to create another div -->
+      <div class="container">
+        <div class="left-container">
+          <h1>This website is super awesome like a possum</h1>
+          <p>
+            This website has some subtext that goes here under the main title.
+            It's a smaller font and the color is lower contrast
+          </p>
+          <button>Sign up</button>
+        </div>
+        <div class="right-container">
+          <img src="./images/time-travel.jpg" alt="wristwatch on arm" />
+        </div>
       </div>
     </section>
     <section class="two">
-      <h2>Some random information. Not as important as the first section.</h2>
-      <ul>
-          <li><img src="" alt=""><span>this is a short subtext under the image</span></img></li>
-          <li><img src="" alt=""><span>this is a short subtext under the image</span></img></li>
-          <li><img src="" alt=""><span>this is a short subtext under the image</span></img></li>
-          <li><img src="" alt=""><span>this is a short subtext under the image</span></img></li>
-      </ul>
+      <h2 id="header-2">
+        Some random information. Not as important as the first section.
+      </h2>
+      <div class="list-horizontal">
+        <div class="image-block">
+          <img src="./images/sun.jpeg" alt=" " />
+          <p>this is some subtext that is placed below the image</p>
+        </div>
+        <div class="image-block">
+          <img src="./images/dino.jpeg" alt=" " />
+          <p>this is some subtext that is placed below the image</p>
+        </div>
+        <div class="image-block">
+          <img src="./images/future-city.jpeg" alt=" " />
+          <p>this is some subtext that is placed below the image</p>
+        </div>
+        <div class="image-block">
+          <img src="./images/young.jpeg" alt=" " />
+          <p>this is some subtext that is placed below the image</p>
+        </div>
+      </div>
     </section>
     <section class="three">
-        <q>This is an inspipring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice!</q>
+      <p>
+        This is an inspiring quote, or a testimonial from a customer. Maybe it's
+        just filling up space, or maybe people will actually read it. Who knows?
+        All I know is that it looks nice!
+      </p>
     </section>
     <section class="four">
-        <div>
-            <h3>Call to action! It's time!</h3>
-            <p>Sign up for out product by clicking the button on the right!</p>
-            <button>Sign up</button>
+      <div class="container-4">
+        <div class="box-1">
+          <h3>Call to action! It's time!</h3>
+          <p>Sign up for out product by clicking the button on the right!</p>
         </div>
+        <div class="box-2">
+          <button>Sign up</button>
+        </div>
+      </div>
     </section>
   </body>
 </html>
